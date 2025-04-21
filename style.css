@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+label {
+    font-size: 8pt;
+    color: gray; 
+    padding: 0 10px;
+}
+
+.row {
+    text-align: left;
+    display: flex;
+}
+.button-row {
+    text-align: right;
+    display: block;
+}
+
+.button-row>button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin:0 20px;
+
+}
+
+
+.submit-button {
+    background-color: rgb(182, 211, 182)
+}
+
+.cell {
+    text-align: left;
+    display: grid;
+    width: 100%;
+}
+
+.outer-section {
+    background-color: rgba(220, 220, 220, 0.843);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 40px;
+}
+
+.inner-section {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 40px;
+}

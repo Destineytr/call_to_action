@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Call To Action </title>
+</head>
+<body>
+    <div class="outer-section">
+        <h1>Contact Your Administration</h1>
+        <div>
+        </div>
+        <div class="inner-section">
+            <form
+                action="mailto:someone@example.com" 
+                method="post" 
+                enctype="text/plain"
+            >
+                <div class="row">
+                    <div class="cell">
+                        <label>Name</label>
+                        <input name="name" type="text"> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <label>Major</label>
+                        <input name="major" type="text">
+                    </div>
+                    <div class="cell">
+                        <label>Date</label>
+                        <input name="date" type="date">
+                    </div>
+                </div>
+                <div class="button-row">
+                        <button disabled>Print Copy</button>
+                        <button class="submit-button" type="submit">Submit Email</button>
+                </div>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>
