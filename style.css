@@ -33,8 +33,10 @@ label {
 }
 
 
-.submit-button {
-    background-color: rgb(182, 211, 182)
+.print-button {
+    color: white;
+    padding: 5px;
+    background-color: rgb(130, 130, 130)
 }
 
 .cell {
