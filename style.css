@@ -15,7 +15,7 @@ font-size: 16pt;
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #fff6e2;
+    background-color: #f5c866;
 }
 
 input {
@@ -83,9 +83,11 @@ nav {
 .print-button {
     color: white;
     padding: 5px;
-    background-color: rgb(130, 130, 130)
+    background-color: #cb203a
 }
-
+.submit-button {
+    background-color: #f1696a;
+}
 .cell {
     text-align: left;
     display: grid;
@@ -95,7 +97,7 @@ nav {
 .outer-section {
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #ffbe33;
+    background-color: #fff6e2;
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
