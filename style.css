@@ -13,6 +13,11 @@ font-size: 16pt;
 
 }
 
+hr {
+    border: 1px dashed rgb(186, 186, 186);
+    margin: 20px 0
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f5c866;
@@ -25,7 +30,7 @@ input {
 }
 
 label {
-    font-size: 8pt;
+    font-size: 10pt;
     color: gray; 
     padding: 0 10px;
 }
@@ -41,6 +46,15 @@ nav {
     background-color: #4a306d;
     color: white;
     padding: 1em 2em;
+}
+.statement {
+    font-family: "Mulish", sans-serif;
+    padding: 20px;
+}
+
+.slashing {
+    color: #CB203A;
+    font-weight:900;
 }
 
 .nav a {
@@ -115,12 +129,12 @@ nav {
     border: 1px solid black;
     border-radius: 25px;
     padding: 20px 40px;
+    margin-bottom: 40px;
 }
 .letter {
-    background-color: #fff6e2;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    padding: 20px;
+    margin: 10px 20px 30px 20px;
 }
 
 .letter-list {
