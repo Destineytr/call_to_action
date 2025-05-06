@@ -23,16 +23,26 @@ body {
     background-color: #f5c866;
 }
 
+textarea {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(11, 11, 11);
+    padding: 5px;
+
+}
+
 input {
     border-radius: 5px;
+    height: 20px;
     border: 1px solid rgb(11, 11, 11);
-    margin: 10px;
+    margin: 5px 10px 10px 0;
+    padding: 10px;
 }
 
 label {
     font-size: 10pt;
     color: gray; 
-    padding: 0 10px;
 }
 
 nav {
@@ -47,6 +57,7 @@ nav {
     color: white;
     padding: 1em 2em;
 }
+
 .statement {
     font-family: "Mulish", sans-serif;
     padding: 20px;
@@ -78,34 +89,24 @@ nav {
 }
 
 .row {
-    text-align: left;
-    display: flex;
+    text-align: right;
 }
 .button-row {
-    text-align: right;
+    text-align: center;
     display: block;
 }
 
 .button-row>button {
     border-radius: 5px;
     border: 1px solid black;
-    padding: 5px;
-    margin: 0 10px;
-}
-
-
-.print-button {
+    padding: 13px;
+    margin: 10px;
     color: white;
-    padding: 5px;
     background-color: #cb203a
 }
-.submit-button {
-    background-color: #f1696a;
-}
-.cell {
-    text-align: left;
-    display: grid;
-    width: 100%;
+
+.sincerely-section {
+    text-align: right;
 }
 
 .outer-section {
@@ -152,6 +153,8 @@ footer {
 }
 
 .footer-item a {
+    text-decoration: none;
+
     color: white;
 }
 

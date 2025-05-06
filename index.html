@@ -39,67 +39,55 @@
             <h2>Letter</h2>
         <div>
             <div class="letter">
-                <p>Dear XXXX,</p>
-                <br />
-                <p>I am writing as a concerned student at San Francisco State University (or selected school) 
-                    <select>
-                        <option value="sfsu">SFSU</option>
-                    </select>
-                , regarding the recent and forthcoming budget cuts to our university. We have already been informed that these cuts will directly impact the Fall 2025 semester, and I want to express how deeply this is affecting not only our academic plans but also the overall climate of our campus.</p>
-                <br />
-                <p>Students are experiencing growing anxiety and uncertainty. The campus atmosphere is one of distress, as we try to navigate our educational goals amid shrinking resources. These budget cuts have already begun to show their effects:</p>
-                <br />
-                <ul class="letter-list">
-                    <li>Class offerings are being reduced, limiting access to required courses and delaying graduation timelines.</li>
-                    <li>Tuition and fees are rising, placing greater financial pressure on students and their families.</li>
-                    <li>Beloved lecturers and professors are at risk of losing their positions, stripping us of mentorship and academic support.</li>
-                </ul>
-                <p>These changes directly undermine the promise of accessible, high-quality public education in California.</p>
-                <br />
-                <p>We ask that you:</p>
-                <br />
-                <ul class="letter-list">
-                    <li>Advocate for restored or increased funding to protect our academic experience and support systems.</li>
-                    <li>Work collaboratively with university leadership to prioritize investments in instruction and student services.</li>
-                    <li>Include student voices in future discussions and decisions about funding and resource allocation.</li>
-                </ul>
-                <br />
-                <p>We urge you to stand with us. Our future depends on thoughtful, student-centered action now.</p>
-                <br />
-                <p>Sincerely,</p>
-                <p>Your Name</p>
-                <p>[School Name/Your Program/Major, Year]</p>
-                <p>[Email or Contact Info]</p>
-                <p>[Your City, CA]</p>
-            </div>
-            <hr/>
-        </div>
-            <form
+                <form
                 action="mailto:someone@example.com" 
                 method="post" 
-                enctype="text/plain"
-            >
-                <div class="row">
-                    <div class="cell">
-                        <label>Name</label>
-                        <input name="name" type="text"> 
+                enctype="text/plain">
+                    <p>Dear XXXX,</p>
+                    <br />
+                    <p>I am writing as a concerned student at San Francisco State University regarding the recent and forthcoming budget cuts to our university. We have already been informed that these cuts will directly impact the Fall 2025 semester, and I want to express how deeply this is affecting not only our academic plans but also the overall climate of our campus.</p>
+                    <br />
+                    <p>Students are experiencing growing anxiety and uncertainty. The campus atmosphere is one of distress, as we try to navigate our educational goals amid shrinking resources. These budget cuts have already begun to show their effects:</p>
+                    <br />
+                    <ul class="letter-list">
+                        <li>Class offerings are being reduced, limiting access to required courses and delaying graduation timelines.</li>
+                        <li>Tuition and fees are rising, placing greater financial pressure on students and their families.</li>
+                        <li>Beloved lecturers and professors are at risk of losing their positions, stripping us of mentorship and academic support.</li>
+                    </ul>
+                    <p>These changes directly undermine the promise of accessible, high-quality public education in California.</p>
+                    <br />
+                    <p>We ask that you:</p>
+                    <br />
+                    <ul class="letter-list">
+                        <li>Advocate for restored or increased funding to protect our academic experience and support systems.</li>
+                        <li>Work collaboratively with university leadership to prioritize investments in instruction and student services.</li>
+                        <li>Include student voices in future discussions and decisions about funding and resource allocation.</li>
+                    </ul>
+                    <br />
+                    <p>We urge you to stand with us. Our future depends on thoughtful, student-centered action now.</p>
+                    <br />
+                    <div class="sincerely-section">
+                        <p>Sincerely,</p> 
+                        <div>
+                            <textarea placeholder='Name' name="name"></textarea>
+                        </div>
+                        <div>
+                            <textarea placeholder='Program/Major' name="major"></textarea>
+                        </div>
+                        <div>
+                            <textarea placeholder='Email/Contact Info' name="contact"></textarea>
+                        </div>
+                        <div>
+                            <textarea placeholder='Your City in CA' name="city"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="cell">
-                        <label>Major</label>
-                        <input name="major" type="text">
-                    </div>
-                    <div class="cell">
-                        <label>Date</label>
-                        <input name="date" type="date">
-                    </div>
-                </div>
-                <div class="button-row">
-                        <input onclick="window.print()" class="print-button" value="Print Copy"type="button">
-                        <button class="submit-button" type="submit">Submit Email</button>
-                </div>
-            </form>
+                </form>
+            </div>      
+            <div class="button-row">
+                <button onclick="window.print()" class="print-button" type="button"> Print Copy </button>
+                <button class="submit-button" type="submit">Submit Email</button>
+            </div>
+            </div>
         </div>
     </div> 
     <footer>
