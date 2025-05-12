@@ -127,7 +127,7 @@ nav img {
 .outer-section {
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #fff6e2;
+    background-color: #feebc2;
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
@@ -170,7 +170,7 @@ footer {
 .footer-item a {
     text-decoration: none;
 
-    color: white;
+    color: #f5c866;
 }
 
 .footer-item a:hover {
